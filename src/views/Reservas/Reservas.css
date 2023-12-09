@@ -1,0 +1,21 @@
+
+
+.c_title{
+
+  height: 500px;
+ 
+}
+
+.datos_contacto{
+background-color: #B23C20;
+color: white;
+align-items: center;
+text-align: left;
+padding: 30px;
+}
+
+.formulario_reserva{
+  background-color: #292E32;
+color: white;
+padding: 30px;
+}

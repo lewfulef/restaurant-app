@@ -1,0 +1,18 @@
+
+footer{
+  background-color: #c54120;
+}
+
+
+.footer{
+  display: flex;
+  
+  color: white;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.logo_footer{
+  filter: saturate(1%) ;
+}
