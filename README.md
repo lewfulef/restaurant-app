@@ -6,12 +6,7 @@ En este repositorio podrás encontrar una aplicación de restaurant en la cual a
 
 Este repositorio ha sido creado en el marco del aprendizaje de nuevas tecnologías y expansión de conocimientos por parte de este usuario, por consiguiente se espera que se vayan realizando cambios favorables en el mismo.
 
-##  Objetivos de Aprendizaje
-Desarrollar esta web utilizando React y Firebase.:
-- Empezar con "Vite" como  base.
-- Crear componentes usando "Hooks".
-- Estilizar con CSS para  look and field.
-- Manejar datos con Cloud Firestore.
+Se desarrolla a partir de "Vite" como base, creando componentes con el uso de Hooks, estilizando con archivos CSS y la data se obtiene desde Firebase y Cloudinary.
 
 ## 5. Requisitos
 Lo que incluye este proyecto:
@@ -26,6 +21,7 @@ En React:
 
 Y para el control de versiones:
 - 📚 Crear un repositorio en GitHub.
+
 
 
 En el despliegue:
