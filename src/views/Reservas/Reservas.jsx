@@ -14,7 +14,7 @@ function Reservas() {
   const [telefono, setTelefono] = useState('');
   const [ciudad, setCiudad] = useState('');
   const [mensaje, setMensaje] = useState('');
-  const [comensales, setComensales] = useState('');
+  const [gatitos, setGatitos] = useState('');
   const [terminos, setTerminos] = useState(false);
   
   // Estado para la validación del formulario
@@ -65,17 +65,17 @@ function Reservas() {
       <Row className="m-5">
         {/* Información de contacto */}
         <Col md={6} className="datos_contacto mb-2">
-          <h2>Reserva con nosotros</h2>
-          <h6>Luego de que ingreses tu contacto, nos pondremos en comunicación contigo para confirmar fechas y disponibilidad de horarios.</h6>
+          <h2>Adopta a un gatito</h2>
+          <h6>Luego de que ingreses tu información de contácto, nos pondremos en comunicación contigo para confirmar fechas y disponibilidad de horarios para realizar una reunión de encuentro entre tu y el gatito que quieras adoptar.</h6>
           <br />
           <Container fluid>
-            <h6>Teléfono: +1 (555) 123-4567</h6>
+            <h6>Contáctanos al (+56) 9 1234 5678</h6>
             <h6>contacto@ladonagatona.com</h6>
           </Container>
         </Col>
         {/* Formulario de reserva */}
         <Col md={6} className="formulario_reserva mb-2">
-          <h2>Formulario de Reservas</h2>
+          <h2>Formulario de adopción de gatitos</h2>
           <Form noValidate validated={validated} onSubmit={handleSubmit}>
             <Row className="mb-3">
               {/* Entrada para el nombre */}
@@ -140,13 +140,13 @@ function Reservas() {
             <Row className="mb-3">
               {/* Entrada para el número de comensales */}
               <Form.Group as={Col} controlId="validationCustom02">
-                <Form.Label>Comensales</Form.Label>
+                <Form.Label>Gatitos a adoptar</Form.Label>
                 <Form.Control
                   required
                   type="number"
-                  placeholder="Número de comensales"
-                  value={comensales}
-                  onChange={(e) => setComensales(e.target.value)}
+                  placeholder="Número de gatitos"
+                  value={gatitos}
+                  onChange={(e) => setGatitos(e.target.value)}
                 />
                 <Form.Control.Feedback>¡Todo correcto!</Form.Control.Feedback>
               </Form.Group>

@@ -1,6 +1,6 @@
 # PROYECTO 4: Aplicación Restaurant " La Dona Gatona " 🍩
 
-## Descripción
+## Descripción:
 
 En este repositorio podrás encontrar una aplicación de restaurant en la cual además de poder ordenar donas para comer también podrás ingresar tus datos en un formulario para poder adoptar un gatito que lo necesite.
 
@@ -8,7 +8,6 @@ Este repositorio ha sido creado en el marco del aprendizaje de nuevas tecnologí
 
 Se desarrolla a partir de "Vite" como base, creando componentes con el uso de Hooks, estilizando con archivos CSS y la data se obtiene desde Firebase y Cloudinary.
 
-## 5. Requisitos
 Lo que incluye este proyecto:
 - Diseño y prototipo simple.
 - HTML5 semántico 
