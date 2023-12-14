@@ -1,19 +1,10 @@
-# PROYECTO 4: Aplicación "Restaurante: Pizzeria Best Choise " 🍽️
+# PROYECTO 4: Aplicación Restaurant " La Dona Gatona " 🍩
 
-## lINK
-Echa un vistazo al demo aquí: ""
+## Descripción
 
-Inspírate y piensa en lo que tú también podrías construir. No es necesario copiar, ¡sé creativo!
+En este repositorio podrás encontrar una aplicación de restaurant en la cual además de poder ordenar donas para comer también podrás ingresar tus datos en un formulario para poder adoptar un gatito que lo necesite.
 
-
-👨‍🍳 Esta aplicación web para restaurante incluirá:
-
-- 📝 Reservas de mesa.
-- 📜 Un menú detallado.
-- 📱 Diseño adaptado a móviles.
-- 📰  un artículo sobre el restaurante.
-
-Para la base de datos, se utilizo Cloud Firestore de Firebase.
+Este repositorio ha sido creado en el marco del aprendizaje de nuevas tecnologías y expansión de conocimientos por parte de este usuario, por consiguiente se espera que se vayan realizando cambios favorables en el mismo.
 
 ##  Objetivos de Aprendizaje
 Desarrollar esta web utilizando React y Firebase.:
