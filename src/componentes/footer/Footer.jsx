@@ -9,21 +9,51 @@ import './Footer.css';
 function Footer() {
   return (
    
-    <footer>
-    <Container >
-      <Row className='footer' >
-        <Col>
-         <Image src="./src/assets/imagenes/logo/logo.png"  className='logo_footer' fluid />
-          
-        </Col>
-        <Col> 
-             <h3>Pizzeria Best Choise</h3>
-        </Col>
-        <Col>
-        <h6>Dirección: Sn Martin Viña del mar</h6>
-        </Col>
-      </Row>
-    </Container>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-row">
+
+          <div class="footer-col">
+            <h4>Dona Gatona</h4>
+            <ul>
+              <li><a href="#">Sobre Nosotros</a></li>
+              <li><a href="#">Nuestros Servicios</a></li>
+              <li><a href="#">Politica de Privacidad</a></li>
+              <li><a href="#">Trabaja con Nosotros</a></li>
+            </ul>
+
+          </div>
+          <div class="footer-col">
+            <h4>Categorias de Donas</h4>
+            <ul>
+              <li><a href="#">Donas tradicionales</a></li>
+              <li><a href="#">Donas rellenas</a></li>
+              <li><a href="#">Donas gatonas</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contáctanos</h4>
+            <ul>
+              <li><a href="#">Correo electrónico</a></li>
+              <li><a href="#">Whatsapp</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Síguenos</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
     </footer>
   );
 }

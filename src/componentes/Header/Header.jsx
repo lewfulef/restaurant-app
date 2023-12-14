@@ -1,9 +1,5 @@
 
-
 import Carousel from 'react-bootstrap/Carousel';
-
-
-
 
 
 const Header = () => {
@@ -12,24 +8,24 @@ const Header = () => {
     <Carousel data-bs-theme="ligth">
     <Carousel.Item>
       <img
-        className="d-block w-100"
-        src="./src/assets/imagenes/banners/banner.png"
+        className="d-block w-90"
+        src="./src/assets/imagenes/banners/donasBanner.png"
         alt="First slide"
       />
    
     </Carousel.Item>
     <Carousel.Item>
       <img
-        className="d-block w-100"
-        src="./src/assets/imagenes/banners/banner2.png"
+        className="d-block "
+        src="./src/assets/imagenes/banners/donaLinda.webp"
         alt="Second slide"
       />
      
     </Carousel.Item>
     <Carousel.Item>
       <img
-        className="d-block w-100"
-        src="./src/assets/imagenes/banners/banner3.png"
+        className="d-block"
+        src="./src/assets/imagenes/banners/donaRellena.jpeg"
         alt="Third slide"
       />
   

@@ -5,14 +5,16 @@ import Image from 'react-bootstrap/Image';
 import './Home.css'
 import Button from 'react-bootstrap/Button'; 
 
+
 const Home = () => {
     return (
+        
         <Container>
             <section>
             <Row className="mt-5 m-2">
              
                 <div className="calltoaction">
-                <h2>Revisa nuestra carta de las mejores Pizzas </h2>
+                <h2>Revisa nuestra carta con las mejores donas </h2>
                 <br />
                 <Button variant="danger" href="/Menu">Haz click aquí</Button>
                 </div>
@@ -23,12 +25,14 @@ const Home = () => {
           
                 <Col md={6} className="p-5"> 
                     <div>
-                        <h2> Pizzeria Best choice</h2>
+                        <h2> Fábrica de donas</h2>
+                        <h1>La Dona Gatona</h1>
                     </div>
                     <div>
-                        <p>El secreto del éxito se asemeja bastante a hacer una mejor pizza... cuanto más empeño pongas, mejor será el resultado. Hoy en día, buscamos la perfección como lo venimos haciendo desde el momento en que inauguramos nuestro primer restaurante hace más de 30 años. Hoy mantenemos el deseo de ser los mejores en preparar nuevos productos y nuevas e innovadoras recetas.
+                        <p> Ven a probar las mejores donas y compartir con gatitos en nuestro local. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla libero fugit enim, ratione doloremque repellat sequi qui eaque facere ab at sit perspiciatis voluptatum quis repellendus voluptate, suscipit totam ipsam.
                             <br />
-                            La calidad es esencial para nosotros. Ha sido nuestra base desde la primera pizza que preparamos en nuestro primer local en Jeffersonville, IN, hasta las que hacemos hoy en día en los más de 5,000 restaurantes en 44 países y territorios alrededor del mundo.</p>
+                            <br />
+                            Si lo deseas también puedes adoptar a un gatito que lo necesite</p>
                   
                      <a  className="link"   href="/Nosotros">Ver más</a>
                     </div>
@@ -36,7 +40,7 @@ const Home = () => {
 
                 <Col> 
                     <div>
-                        <Image src="./src/assets/imagenes/banners/5.jpg" fluid />
+                        <Image src="./src/assets/imagenes/banners/adopta.jpeg" fluid />
                     </div>
                 </Col>
                

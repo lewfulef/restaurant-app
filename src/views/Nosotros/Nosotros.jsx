@@ -12,22 +12,22 @@ const Nosotros = () => {
             <Row className="mt-5"> 
                 <Col md={6} className="p-5"> 
                     <div>
-                        <h2>Best choice</h2>
+                        <h2>La Dona Gatona</h2>
                     </div>
                     <div>
-                        <p>El secreto del éxito se asemeja bastante a hacer una mejor pizza... cuanto más empeño pongas, mejor será el resultado. Hoy en día, buscamos la perfección como lo venimos haciendo desde el momento en que inauguramos nuestro primer restaurante hace más de 30 años. Hoy mantenemos el deseo de ser los mejores en preparar nuevos productos y nuevas e innovadoras recetas.
+                        <p>La Dona Gatona inicia desde el sueño de generar un espacio de reunión entre amantes del café y los gatos.
                             <br />
-                            La calidad es esencial para nosotros. Ha sido nuestra base desde la primera pizza que preparamos en nuestro primer local en Jeffersonville, IN, hasta las que hacemos hoy en día en los más de 5,000 restaurantes en 44 países y territorios alrededor del mundo.
+                            En nuestro local podrás encontrar el mejor café de especialidad y la mejor compañía junto a los gatitos que visitan nuestro espacio y también con las y los mininos que viven en este espacio ya que La Dona Gatona se levanta como un espacio de acogida donde diversos amigos gatunos nos visitan hasta que alguien decide adoptar a uno de ellos.
                             <br />
-                            No usamos ingredientes baratos ni procesados. Desde nuestra salsa exclusiva, nuestros ingredientes, nuestra masa fresca original e incluso en la caja, invertimos para ofrecerte siempre la mejor pizza.
+                            ¡¡Así que no tengas vergüenza y consulta por nuestra ficha para solicitar la adopción de alguno de nuestros tripulantes!!
                             <br />
-                            Sabemos que para ti, no es solo una mejor pizza. Es una reunión familiar, un cumpleaños inolvidable, una celebración de trabajo o simplemente una gran comida. Nuestro objetivo es garantizar que siempre tengas los mejores ingredientes para cada ocasión.</p>
+                            Sabemos que para ti, no es solo una mejor dona. Es una reunión familiar, un cumpleaños inolvidable, una celebración de trabajo o simplemente una gran comida. Nuestro objetivo es garantizar que siempre tengas los mejores ingredientes y la mejor compañía en toda ocación.</p>
                     </div>
                 </Col>
 
                 <Col md={6} className="p-2"> 
                     <div>
-                        <Image src="./src/assets/imagenes/banners/img_section.jpg" fluid />
+                        <Image src="./src/assets/imagenes/banners/donasPreparacion.jpg" fluid />
                     </div>
                 </Col>
             </Row>
@@ -36,8 +36,8 @@ const Nosotros = () => {
             <Row mt-10 m-5>
            
                 <div  className='D_imgLocal'>
-                <Col md={12} className="p-4"> 
-               <Image  src="./src/assets/imagenes/banners/img_section3.jpg" fluid  />
+                <Col md={12} className="p-"> 
+               <Image  src="./src/assets/imagenes/banners/mostrandoDona.webp" fluid  />
                </Col >   
                </div>
            

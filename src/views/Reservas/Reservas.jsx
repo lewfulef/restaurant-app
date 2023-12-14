@@ -66,11 +66,11 @@ function Reservas() {
         {/* Información de contacto */}
         <Col md={6} className="datos_contacto mb-2">
           <h2>Reserva con nosotros</h2>
-          <h6>Tras tu contacto, nos pondremos en comunicación contigo para confirmar fechas y disponibilidad de horarios.</h6>
+          <h6>Luego de que ingreses tu contacto, nos pondremos en comunicación contigo para confirmar fechas y disponibilidad de horarios.</h6>
           <br />
           <Container fluid>
             <h6>Teléfono: +1 (555) 123-4567</h6>
-            <h6>contacto@bestchoice.com</h6>
+            <h6>contacto@ladonagatona.com</h6>
           </Container>
         </Col>
         {/* Formulario de reserva */}
