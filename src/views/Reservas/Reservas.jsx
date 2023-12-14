@@ -28,7 +28,7 @@ function Reservas() {
     try {
       await addDoc(collection(db, "Reservas"), datosReserva);
       setReservaRealizada(true); // Marcar la reserva como realizada
-      console.log('Datos del formulario', { nombre, email, telefono, ciudad, mensaje, comensales,fechaHora });
+      console.log('Datos del formulario', { nombre, email, telefono, ciudad, mensaje, gatitos,fechaHora });
     } catch (error) {
       console.error("Error al guardar la reserva: ", error);
     }
