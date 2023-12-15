@@ -22,12 +22,29 @@ export const Donas = () => {
   }, [])
 
   return (
-    <article className='card'>
-    <div className="card-body">
-      <h3>nombre</h3>
-      <p>párrafo</p>
-      <Button className="btn-bottom" variant="danger">Valor $</Button> 
-    </div>
-  </article>
+    <>
+    {
+      donas.map(dona => (
+        <div>
+        
+        <article className='card'>
+            
+            <div className="card-body">
+            
+            <img src={dona.image} alt="" />
+            
+            <h3>{dona.name}</h3>
+            
+            <p>{dona.description}</p>
+            <Button className="btn-bottom" variant="danger">Valor ${dona.price}</Button> 
+        
+        </div>
+      </article>
+      
+      </div>
+      ))
+    }
+   
+  </>
   )
 }
