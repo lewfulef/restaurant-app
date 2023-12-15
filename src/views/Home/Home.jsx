@@ -25,7 +25,7 @@ const Home = () => {
           
                 <Col md={6} className="p-5"> 
                     <div>
-                        <h2> Fábrica de donas</h2>
+                        <h2>Fábrica de donas</h2>
                         <h1>La Dona Gatona</h1>
                     </div>
                     <div>

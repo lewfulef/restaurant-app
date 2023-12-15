@@ -11,8 +11,8 @@ import Header from "../../componentes/Header/Header";
 
 function Navigation() {
   return (
-   <header>
-    <Navbar bg="dark" variant="dark" expand="lg">
+   
+    <Navbar bg="dark" variant="dark" expand="lg" className="sticky-top">
       <Container>
         <Navbar.Brand as={NavLink} to="/Home">
           <Image src={logo} className="logo" />
@@ -24,14 +24,14 @@ function Navigation() {
             <Nav.Link as={NavLink} to="/Home">INICIO</Nav.Link>
             <Nav.Link as={NavLink} to="/Nosotros">NOSOTROS</Nav.Link>
             <Nav.Link as={NavLink} to="/Menu">MENU</Nav.Link>
-            <Nav.Link as={NavLink} to="/Reservas">RESERVAS</Nav.Link>
+            <Nav.Link as={NavLink} to="/Reservas">ADOPTA</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
       
-      <Header/>
-      </header>
+      
+      
   );
 }
 
