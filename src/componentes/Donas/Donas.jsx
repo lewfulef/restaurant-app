@@ -25,7 +25,8 @@ export const Donas = () => {
     <>
     {
       donas.map(dona => (
-        <div>
+       
+       <div className=''>
         
         <article className='card'>
             

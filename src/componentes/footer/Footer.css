@@ -1,21 +1,21 @@
+
 .footer {
   background-color: lightsalmon;
   display: flex;
-  align-items: start;
-  align-content: space-between;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 
 li, a, button{
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 20px;
   color: white;
   text-decoration: none;
   list-style: none;
+  text-transform: capitalize;
 }
 
 a {
@@ -25,38 +25,30 @@ a {
 
 ul {
   list-style: none;
+  text-decoration: none;
 }
 
 .footer-container {
-  /*max-width: 1170px;*/
+  display: flex;
   margin: auto;
-  padding: 70px 0;
-  align-items: start;
-  align-content: center;
-  justify-content: space-between;
+  padding: 2rem;
 }
 
 .footer-row {
   display: flex;
   flex-wrap: wrap;
-  align-items: start;
-  justify-content: space-between;
-}
-
-
-.footer-col {
-  width: 25%;
-  padding: 0 15px;
+  align-items: flex-start;
 }
 
 .footer-col h4 {
   font-size: 18px;
   color: #ffffff;
-  text-transform: capitalize;
   margin-bottom: 30px;
   font-weight: 500;
   position: relative;
+  align-items: flex-start;
 }
+
 
 .footer-col h4::before{
   content: '';
@@ -109,8 +101,7 @@ ul {
 
 
 @media (max-width: 760px){
-
-  .nav__links .checkbtn .footer-col{
+  .footer-col {
       width: 50%;
       margin-bottom: 30px;
   }
