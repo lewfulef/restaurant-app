@@ -30,8 +30,6 @@ function Navigation() {
       </Container>
     </Navbar>
       
-      
-      
   );
 }
 
