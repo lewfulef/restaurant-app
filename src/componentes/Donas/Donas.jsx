@@ -27,21 +27,14 @@ export const Donas = () => {
       donas.map(dona => (
        
        <div className=''>
-        
         <article className='card'>
-            
             <div className="card-body">
-            
             <img src={dona.image} alt="" />
-            
             <h3>{dona.name}</h3>
-            
             <p>{dona.description}</p>
             <Button className="btn-bottom" variant="danger">Valor ${dona.price}</Button> 
-        
         </div>
       </article>
-      
       </div>
       ))
     }

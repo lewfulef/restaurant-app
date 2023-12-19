@@ -4,7 +4,7 @@ import { Button, Col, Form, Row, Container } from 'react-bootstrap';
 import '../Reservas/Reservas.css';
 import { db } from "../../config/Firebase";
 import { collection, addDoc } from 'firebase/firestore';
-import ListaReservas from '../../componentes/ListaReservas';
+import formularioAdopcion from '../../componentes/ListaReservas';
 
 function Reservas() {
   // Estados para cada campo del formulario
@@ -21,16 +21,16 @@ function Reservas() {
   const [validated, setValidated] = useState(false);
   
   // Estado para la confirmación de la reserva
-  const [reservaRealizada, setReservaRealizada] = useState(false);
+  const [adopcionRealizada, setAdopcionRealizada] = useState(false);
 
   // Función para guardar la reserva en Firebase
-  const guardarReserva = async (datosReserva) => {
+  const guardarAdopcion = async (datosAdopcion) => {
     try {
-      await addDoc(collection(db, "Reservas"), datosReserva);
-      setReservaRealizada(true); // Marcar la reserva como realizada
+      await addDoc(collection(db, "adopta"), datosAdopcion);
+      setAdopcionRealizada(true); // Marcar la reserva como realizada
       console.log('Datos del formulario', { nombre, email, telefono, ciudad, mensaje, gatitos,fechaHora });
     } catch (error) {
-      console.error("Error al guardar la reserva: ", error);
+      console.error("Error al guardar la adopción: ", error);
     }
   };
 
@@ -42,19 +42,19 @@ function Reservas() {
       event.stopPropagation();
     } else {
       // Crear objeto con los datos del formulario
-      const datosReserva = { nombre, email, fechaHora, telefono, ciudad, mensaje, comensales };
-      guardarReserva(datosReserva); // Llamar a la función para guardar los datos
+      const datosAdopcion = { nombre, email, fechaHora, telefono, ciudad, mensaje, gatitos };
+      guardarAdopcion(datosAdopcion); // Llamar a la función para guardar los datos
     }
     setValidated(true); // Activar la validación de Bootstrap
   };
 
   // Si la reserva se realizó con éxito, mostrar mensaje de confirmación
-  if (reservaRealizada) {
+  if (adopcionRealizada) {
     return (
       <Container className="my-3 px-3">
-        <h2>Reserva Realizada</h2>
-        <p>¡Tu reserva ha sido confirmada con éxito!</p>
-        <ListaReservas />
+        <h2>Adopción Realizada</h2>
+        <p>¡Tu adopción ha sido confirmada con éxito!</p>
+        <FormularioAdopcion />
       </Container>
     );
   }
